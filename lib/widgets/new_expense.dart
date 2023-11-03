@@ -93,7 +93,7 @@ class _NewExpenseState extends State<NewExpense> {
             children: [
               Expanded(
                 child: TextField(
-                  controller: _titleController,
+                  controller: _amountController,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
                     prefixText: '\$',
